@@ -1,0 +1,59 @@
+table, td{
+    border-collapse: collapse;
+    padding: 10px;
+}
+table{
+    border-style: solid;
+    border: solid 1px #DDDDDD;
+    font-family: arial;
+}
+.azul-marinho {
+    color: #003366;
+}
+.azul-celeste {
+    color: #1398BE;
+}
+.laranja {
+    color: #DE9800;
+}
+.cinza {
+    color: #CCCCCC;
+}
+.vermelho {
+    color: #C91B04;
+}
+
+.azul-celeste,.azul-marinho,.cinza,.laranja,.vermelho {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.colunas {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #999999;
+}
+.nomes {
+    font: 14px bold;
+    text-align: left;
+    color: #666666;
+}
+.pontos {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.jogos,.vitorias,.empates,.derrotas,.gp,.gc,.sg,.apro {
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+}
+.pontos,.vitorias,.derrotas,.gc,.apro {
+    background-color: #F7F7F7;
+}
+.legenda {
+    font-size: 10px;
+    color: #555555;
+}

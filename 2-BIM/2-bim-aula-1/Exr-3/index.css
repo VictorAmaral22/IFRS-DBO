@@ -1,0 +1,27 @@
+table:nth-last-of-type(1) th {
+    text-align: center;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+} 
+
+table:nth-last-of-type(1) tr:nth-of-type(2) {
+    text-align: center;
+    padding: 1px;
+    background-color: aqua;
+    color: blue;
+} 
+
+td.numbers {
+    text-align: center;
+    padding: 1px;
+    background-color: burlywood;
+    color: black;
+} 
+
+td.names, td.pop {
+    text-align: center;
+    padding: 1px;
+    background-color: tomato;
+    color: black;
+}

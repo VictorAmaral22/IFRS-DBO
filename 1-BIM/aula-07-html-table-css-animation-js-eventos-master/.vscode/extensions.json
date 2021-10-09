@@ -1,0 +1,18 @@
+{
+	"recommendations": [
+        "abusaidm.html-snippets",
+        "christian-kohler.path-intellisense",
+        "CoenraadS.bracket-pair-colorizer",
+        "dbaeumer.vscode-eslint",
+        "EditorConfig.EditorConfig",
+        "HookyQR.beautify",
+        "humao.rest-client",
+        "ms-vscode.atom-keybindings",
+        "ritwickdey.LiveServer",
+        "WallabyJs.quokka-vscode",
+        "wayou.vscode-todo-highlight",
+        "Zignd.html-css-class-completion"
+	],
+	"unwantedRecommendations": [
+	]
+}

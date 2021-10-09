@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var caes = ['Boxer','Buldogue','Labrador','Poodle','Beagle','Pug','Galgo','Rusky'];
+        alert('O número de cães presentes na lista é: '+caes.length+'. O primeiro cão é '+caes[0]+', já o último da lista é '+caes[caes.length-1]+'.');
+        function letraB(){
+            let element = 'Os cães com a letra "b" são: ';
+            for (let c = 0; c < caes.length; c++) {
+                if( caes[c].charAt(0) == "B" || caes[c].charAt(0) == "b" ){
+                    element += caes[c]+", ";                    
+                }                
+            }
+            alert(element);
+        }
+        letraB();
+
+        function letraP(){
+            let element = 'Os cães com a letra "p" são: ';
+            for (let c = 0; c < caes.length; c++) {
+                if( caes[c].charAt(0) == "P" || caes[c].charAt(0) == "p" ){
+                    element += caes[c]+', ';                    
+                }                
+            }
+            alert(element);
+        }
+        letraP();
+
+        //
+
+        var outrosCaes = [];
+        var listaDeCaes = 'yorkshire-rottweiler-maltês-collie-basset-cocker-pinscher';
+        outrosCaes = listaDeCaes.split('-');
+        alert(outrosCaes);
+
+        var todosCaes = caes.concat(outrosCaes);
+        alert(todosCaes);
+        
+    </script>
+</body>
+</html>

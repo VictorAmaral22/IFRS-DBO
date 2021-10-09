@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Título do documento</h1>
+    <h2>Subtítulo</h2>
+    <h3>Terceiro nível</h3>
+        <a hrf="#" >Link nada a ver</a>
+        <p id='primeiro'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam id praesentium eum modi quisquam iusto deserunt cumque odit numquam! Officia, rerum nulla praesentium distinctio ipsam nobis veniam repudiandae temporibus esse.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <span class="sublinhado">Asperiores maxime</span> quidem ullam, repudiandae temporibus voluptates perspiciatis vero dolorem enim nemo eveniet cupiditate non harum aliquid quisquam repellat numquam. Magnam, obcaecati!</p>
+        <script>
+        function trimLeft(txt) {
+                console.log(this);
+                let r = '';
+                let copy = false;
+                for (let i = 0; i < this.txt.length; i++) {
+                    if (copy || this.txt[i] != ' ') {
+                        copy = true;
+                        r += this.txt.charAt(i);
+                    }
+                }
+                return r;
+            }
+
+            const o = {
+                nome: 'teste',
+                txt : '   um texto',
+                tleft: trimLeft
+            };
+            //trimLeft.call(o); chama a const 'o'
+
+            ///
+
+            //o.tleft()
+            // { nome: 'teste', txt : '   um texto', tleft: trimLeft }
+            //"um texto"
+        </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+table {
+    margin: 0 auto;
+    width: 600px;
+    font-family: Arial;
+    font-size: 12px;
+}
+td {
+    padding: 2px;
+}
+.azul-med {
+    background-color:#66C5E3;
+}
+table:nth-last-of-type(1) th {
+    text-align: center;
+    padding: 2px;
+    background-color:#0D5188;
+    color: white;
+} 
+.pop, .cidades {
+    background-color: #C7E7F3;
+}
+.cidades {
+    color: #0D5188; 
+}
+.numbers {
+    background-color: silver;
+    text-align: center;
+    size: 10%;
+}
+.pop {
+    text-align: center;
+    size: 15%;
+}

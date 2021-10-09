@@ -1,0 +1,27 @@
+table:nth-of-type(1) { /* primeira tabela */
+    border-style: double;
+    border-width: 2px;
+    border-color: darkorchid;
+}
+
+table:nth-of-type(1) td, table:nth-of-type(1) th {
+    border: solid 2px darkblue; /* shorthand property */
+}
+
+table:nth-of-type(2), 
+table:nth-of-type(2) td, 
+table:nth-of-type(2) th {
+    border: solid 2px darkred;
+    border-collapse: collapse;
+}
+
+table:nth-of-type(2) td, 
+table:nth-of-type(2) th {
+    padding: 0.5em; /* meio tamanho de letra (0.5*16px) */
+    text-align: center; 
+}
+
+/* td com a class destaque */
+table:nth-of-type(2) td.destaque {
+    background-color: cyan;
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+*{
+    background-color: darkslategray;
+}
+h1 {
+    font-size: 40pt;
+    text-align: center;
+    font-family: "Indie FLower";
+}
+h1:hover{
+    color: red;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 30pt;
+    font-family: cursive;
+    font-weight: lighter;
+}
+h3 {
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    text-shadow: 5px 5px 10px rebeccapurple;
+    /* text-shadow: -5px -5px 10px darkgreen; na outra direção*/
+}
+p#primeiro{
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+}
+/* o 2ndo p */
+p:nth-of-type(2){
+    color: darkred;
+    text-align: justify;
+}
+span.sublinhado{ /* spans com a classs sublinhada */
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+p:last-of-type{
+    line-height: 20pt
+}

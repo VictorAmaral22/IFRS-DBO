@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Como criar um formulário completo em HTML</title>
+</head>
+<body>
+    <h1>Bem vindo ao site HTML Progressivo</h1>
+    <h2>Preencha o formulário abaixo para participar do curso de HTML & CSS completo, online e grátis</h2>
+    
+    <br>
+    <form action="Script_do_Formulario.php" method="post"></form>    
+    <!-- DADOS PESSOAIS -->
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome"></input>
+                </td>
+                <td>
+                    <label for="sobrenome">Sobrenome: </label>
+                    <input type="text" name="sobrenome"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nascimento">Nascimento: </label>
+                    <input type="date"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="rg">RG: </label>
+                    <input type="text" size="13" maxlength="13"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cpf">CPF: </label>
+                    <input type="text" size="9" maxlength="9"></input>
+                    -
+                    <input type="text" size="2" maxlength="2"></input>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <br>
+    
+    <!-- DADOS DE ENDEREÇO -->
+    <fieldset>
+        <legend>Dados de Endereço</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="rua">Rua: </label>
+                    <input type="text" name="rua"></input>
+                </td>
+                <td>
+                    <label for="numero">Número: </label>
+                    <input type="text" name="numero"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bairro">Bairro: </label>
+                    <input type="text"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="estado">Estado: </label>
+                    <select name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cidade">Cidade: </label>
+                    <input type="text"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cep">CEP: </label>
+                    <input type="text" size="5" maxlength="5"></input>
+                    -
+                    <input type="text" size="3" maxlength="3"></input>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <br>
+    
+    <!-- DADOS DE ENDEREÇO -->
+    <fieldset>
+        <legend>Dados de Login</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="email">E-mail: </label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="imagem">Imagem de Perfil: </label>
+                    <input type="file" name="imagem">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="login">Login de Usuário: </label>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Senha: </label>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Confirmar Senha: </label>
+                    <input type="password">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <br>
+
+    <input type="submit" value="ENTER">
+    <input type="reset" value="LIMPAR">
+    </form>
+</body>
+</html>

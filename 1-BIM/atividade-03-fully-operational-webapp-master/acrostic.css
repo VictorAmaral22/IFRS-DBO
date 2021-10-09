@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-style: dotted;
+    border-color: black;
+}
+
+td {
+    border-style: groove;
+    text-align: center;
+    border-color: black;
+    width: 27px;
+    height: 27px
+}
+
+td.realce {
+    background-color: purple;
+    color: white;
+}
+
+td.realce2 {
+    background-color: green;
+    color: white;
+}

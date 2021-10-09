@@ -1,0 +1,39 @@
+form fieldset {
+    margin: 10px auto 10px auto;
+    width: 40%;
+    border: solid black 1px;
+    padding: 3%;
+    background-color: wheat;
+    border-radius: 30px;
+}
+form legend {
+    padding: 6px;
+    margin: 10px;
+    border: solid black 1px;
+    font-size: 100%;
+    font-weight: bold;
+    background-color: turquoise;
+}
+form label {
+    display: block;
+    font-size: 11px;
+}
+form input {
+    width: 100%;
+    border: solid black 1px;font-size: 11px;
+    margin-bottom: 10px;
+    background-color: turquoise;
+    color: black;
+}
+form input.botao {
+    display: block;
+    width: auto;
+    float: right;
+    border: solid black 1px;
+}
+
+form select{
+    background-color: turquoise;
+    color: black;
+    border: solid 1px black;
+}

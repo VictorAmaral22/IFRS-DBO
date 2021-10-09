@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var string = prompt('Digite algo..');
+        alert('A quantidade de caracteres é de: '+string.length);
+        //
+        var string2 = prompt('Digite um nome com a no começo: ');
+        if(string2.charAt(0) == 'a' || string2.charAt(0) == 'A'){
+            alert(string2);
+        }
+        //
+        var string3 = prompt('Digite o seu nome: ');
+        var bruh = string3.split(' ');
+        alert('Olá, '+bruh[0]);
+        //
+        var string4 = prompt('Digite o seu nome outra vez: ');
+        var count = 0;
+        for (let c = 0; c < string4.length; c++) {
+            if (string4.charAt(c).toUpperCase() == 'A' || string4.charAt(c).toUpperCase() == 'E' || string4.charAt(c).toUpperCase() == 'I' || string4.charAt(c).toUpperCase() == 'O' || string4.charAt(c).toUpperCase() == 'U') {
+                count++;
+            }            
+        }
+        alert('O seu nome tem '+count+' vogais.');
+        //
+        var string5 = prompt('Digite um código binário: ');
+        var count2 = 0;
+        for (let c = 0; c < string5.length; c++) {
+            if (string5.charAt(c) == '1') {
+                count2++;
+            }            
+        }
+        alert('O seu número tem '+count2+' uns.');
+        //
+        var string6 = prompt('Digite algo: ');
+        var aa = string6.split("");
+        for (let c = 0; c < aa.length; c++) {
+            if (aa[c] == 'a' || aa[c] == 'A') {
+                aa[c] = '@';
+            }            
+        }
+        var aaa = ''
+        for (let c = 0; c < aa.length; c++) {
+            aaa += aa[c];    
+        }
+        alert(aaa);
+        //
+        var string7 = prompt('Digite o seu nome(reverse): ');
+        var reverse = '';
+        for (let c = 0; c < string7.length; c++) {
+            reverse = string7.charAt(c) + reverse;
+        }
+        alert(reverse);
+        //
+        var string8 = prompt('Digite o seu nome(iniciais): ');
+        var iniciais = '';
+        var temp = string8.split(' ');
+        string8 = temp;        
+        for (let c = 0; c < string8.length; c++) {
+            if(string8[c] != 'do'){
+                iniciais += string8[c].charAt(0).toUpperCase();
+            }
+        }
+        alert(iniciais);
+    </script>
+</body>
+</html>

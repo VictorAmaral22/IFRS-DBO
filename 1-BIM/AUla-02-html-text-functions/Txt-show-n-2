@@ -1,0 +1,15 @@
+let rotate = function(txt) {
+    const len = txt.length;
+    return txt[len - 1] + txt.substr(0, len -1 );
+}
+
+console.log(rotate('ifrs'));
+
+//O que é falsy(falso)
+//false, 0 ,undefined, null, '', NaN
+
+const v = [];
+
+if(v === '') {
+    console.log('v é TRUTA'); 
+}

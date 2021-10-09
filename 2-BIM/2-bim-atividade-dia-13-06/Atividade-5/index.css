@@ -1,0 +1,102 @@
+/*layout do arquivo html*/
+body {
+    background-color: #000;
+    color: #fff;
+    font: verdana;
+    font-size: 14px;
+    text-align: justify;
+}
+
+section {
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url(witcher.jpg);
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #4682B4;
+}
+
+aside {
+    width: 20%;
+    height: auto;
+    float: left;
+    background-color: #808080;
+}
+
+article {
+    width: 80%;
+    height: auto;
+    float: right;
+    background-color: #D3D3D3;
+    color: #000;
+    text-align:center;
+}
+
+
+/*formatação do conteúdo do site */		
+.barra a {
+    background-color: #1E90FF;
+    color: #000;
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size:16px;
+}
+
+.barra a:hover {
+    background-color: #B0C4DE;
+}
+
+h1 {
+    font-size: 48px;
+    color: #B0C4DE;
+}
+
+h2 {
+    font-size: 44px;
+    color: #B0C4DE;
+}
+
+.colunas {
+    width: 95%;
+    padding: 5px;
+    text-align: justify;
+    -moz-column-count: 2;
+    -moz-column-gap: 10px;
+    -moz-column-rule: 1px solid #000;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 10px;
+    -webkit-column-rule: 1px solid #000;
+}
+
+.fotos {
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tabela {
+    width: 85%;
+    height: auto;
+    background-color: #fff;
+    color: #191970;
+    border: 1px solid #191970;
+    border-radius: 10px;
+    padding:20px;
+}
+
+ul, li {
+    color: #ADD8E6;
+    font-weight: bold;
+}

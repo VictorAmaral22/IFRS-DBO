@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    #box {
+        width: 500px;
+        height: 160px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <br>
+    <!-- DADOS PESSOAIS -->
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Endereco">Endereço: </label>
+                    <input type="text"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Cidade">Cidade: </label>
+                    <input type="text"></input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="estado">Estado: </label>
+                    <select name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                </td>
+            </tr>            
+        </table>
+    </fieldset>    
+    <br>    
+    <!-- DADOS PROFICIONAIS -->
+    <fieldset>
+        <legend>Dados Proficionais</legend>
+        <table cellspacing="10">
+            <tr>
+                <td>
+                    <label for="natureza-do-cargo">Natureza do Cargo </label>
+                    <br>
+                    <input type="radio" name="natureza-do-cargo">Gerência</input>
+                    <input type="radio" name="financeiro">Financeiro</input>
+                    <input type="radio" name="recepcao">Recepção</input>
+                    <input type="radio" name="administrativo">Administrativo</input>
+                    <input type="radio" name="juridico">Jurídico</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Area-de-interesse">Área de interesse</label>
+                    <br>
+                    <input type="checkbox" name="ai">Computação</input>
+                    <input type="checkbox" name="ai">Biologia</input>
+                    <input type="checkbox" name="ai">Meio Ambiente</input>
+                    <input type="checkbox" name="ai">Engenharia</input>
+                    <input type="checkbox" name="ai">História</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="currículo">Mini-Currículo:</label>
+                    <input type="text" name="curriculo" id="box">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <input type="submit" value="ENTER">
+    <input type="reset" value="LIMPAR">
+    </form>
+    <a href="prova-index.html">- voltar -</a>
+</body>
+</html>

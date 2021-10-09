@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var salario = 1000;
+        var aum = 1.5;
+        var ano = 2010;
+        var agr = parseInt(prompt('Digite o ano: '));
+        for (let c = 0; c < (agr-ano); c++) {
+            salario = (salario+((salario*aum)/100));
+            aum *= 2;            
+        }
+        alert('O novo salário dele é de R$'+salario.toFixed(2));
+        //
+        var numerosSoma = 0;
+        for (let pares = 0, c = 1; c <= 50; pares++) {
+            if ( pares%2 == 0 ) {
+                c++
+                numerosSoma += pares;                
+            }            
+        }
+        alert(numerosSoma);
+        //
+        function tabuada(num) {
+            let text = 'Tabua do número '+num+': ';
+            let resultado = 0;
+            for (let c = 1; c <= 10; c++, resultado = 0) {
+                 resultado = c*num;
+                 text += '\n'+c+' x '+num+' = '+resultado;               
+            }
+            alert(text);          
+        }
+        var numero = parseInt(prompt('Digite o número da tabuada desejada: '));
+        tabuada(numero);
+    </script>
+</body>
+</html>

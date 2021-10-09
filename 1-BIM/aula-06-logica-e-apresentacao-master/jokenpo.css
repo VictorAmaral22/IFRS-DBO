@@ -1,0 +1,42 @@
+img {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+ /* todas as img's com a class mao que estão dentro de div */
+div#humano > img.mao {
+    box-shadow: none;
+    transition: box-shadow 1s ease;
+}
+div#humano > img.mao:hover {
+    box-shadow: 0 0 20px blue;
+    transition: box-shadow 0.5s ease-out;
+}
+div#humano > img.mao.selecionada {
+    background-color: yellow;
+    transition: background-color 0.5s ease-out;
+}
+div#computador > img.mao.selecionada {
+    background-color: lime;
+}
+div {
+    margin-top: 30px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
+/* animação */
+@keyframes carregando {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+div#computador img.mao.carregando {
+    /* nome duração timing delay contagem */
+    animation: carregando 500ms linear 100ms infinite;
+}

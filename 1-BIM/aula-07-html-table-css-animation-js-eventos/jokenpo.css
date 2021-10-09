@@ -1,0 +1,16 @@
+img {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+/* todas as img's com a class mao que estao dentro do div */
+div#humano > img.mao:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 255);
+    transition: box-shadow is ease;
+}
+div#humano > img.mao.selecionada {
+    background-color: lightblue;
+    transition: background-color is ease-in;
+}
+div {
+    margin-top: 30px;
+}

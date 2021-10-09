@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acrostic Generator</title>
+    <link rel="stylesheet" href="acrostic.css">
+</head>
+<body>
+
+    <h1 title="click-me!">Acrostic Generator</h1>
+
+    <fieldset>
+        <legend>Words to add in the words list (separated by comma)</legend>
+        <textarea rows="3" style="width: 100%"></textarea>
+        <br>
+        <button>Add</button>
+    </fieldset>
+
+    <h2>Words list:</h2>
+    <p>
+    </p>
+    <button>Clear list</button>
+
+    <hr>
+
+    <fieldset>
+        <legend>Input word to acrostic generation</legend>
+        <input></input>
+        <button>Generate</button>
+    </fieldset>
+
+    <!-- do not touch the code before this comment -->
+    <table id="acrostic">
+
+        <!-- LINHA 1 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 2 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 3 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 4 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 5 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 6 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 7 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 8 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 9 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 10 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 11 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 12 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 13 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 14 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- LINHA 15 -->
+        <tr>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+            <td>+</td>
+        </tr>
+        <!-- table content missing,
+        the only place where you can write new HTML code is in this table -->
+        <!-- do not touch the code after this comment -->
+    </table>
+
+    <script src="acrostic.js"></script>
+</body>
+</html>

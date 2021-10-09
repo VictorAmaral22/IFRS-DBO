@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Listas</title>
+    <style>
+    h1{
+        font-size: 3em; /* em(phasis) = 1x 16pt*/
+        /* não use pixel */
+        /* % é de acordo com o default do browser */
+    }
+    /* selector (seletor): seleciona o(s) elemento(s) */
+    /* inline style tem a prevalência */
+    h2 {
+        color: blue;
+    }
+    #naruto { /* Qualquer elemento com este ID*/
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: orange;
+    }
+    .par{ /* Qualquer elemento com esta class*/
+        background-color: blueviolet;
+        color: white;
+    }
+    .impar{ /* Qualquer elemento com esta class*/
+        background-color: red;
+        color: white;
+    }
+
+    /* body{ background-color: red    }*/
+
+    li.enfase{ /* Qualquer elemento com esta class*/
+        background-color: red;
+        font-weight : bolder;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- Atributo style === CSS inline -->
+    <!-- Propriedade: valor -->
+    <h1 style="text-align: center">Listas</h1>
+
+    <h2 style="text-align: center;color : red">Listas numeradas</h2>
+
+    <ol> <!-- Ordered list -->
+        <li class='impar'>Matemática 2</li> <!-- List Item (li) -->
+        <li class='par'>História</li>
+        <li class='impar'>DBO</li>
+            <ol>
+                <li>HTML</li>
+                <li class = "enfase">CSS</li>
+                <li>JavaScript</li>
+            </ol>
+    </ol>
+
+    <h2>Listas de tópicos</h2>
+
+    <ul> <!-- Unordered List (ul) -->
+        <li>Ovo</li>
+        <li>Leite</li>
+        <li id="naruto">Naruto</li>
+        <li>Nuttela</li>
+    </ul>
+
+    <!-- SCRIPTS SEMPRE VÊEM NO FINAL -->
+    <button style='background-color: red;color: white '>TROCA!</button>
+    <script src="dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+h1 {
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 10pt;
+}
+h1,h2,h3{
+    color: red;
+}

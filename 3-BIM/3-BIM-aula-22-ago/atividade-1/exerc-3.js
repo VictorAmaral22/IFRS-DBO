@@ -1,0 +1,1 @@
+alert(' Aluno: '+aluno.nome+' \n Email: '+aluno.email+' \n Turma: '+aluno.turma+' \n Curso: '+aluno.curso+' \n Disciplina: \n - '+aluno.disciplinas.nome+' \n Profesor: '+aluno.disciplinas.professor+' \n Sala: '+aluno.disciplinas.sala);
